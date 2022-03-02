@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 30;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    padding: 15px;
+   
+    
+}
+
+.sidebar{
+    text-align: start;
+    color: rgb(65, 76, 142);
+    width: 80%;
+    padding-left: 10px;
+} 
+
+
+.navbar{
+    
+    color: rgb(65, 76, 142);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+
+
+.img{
+    width: 120px;
+    
+}
+
+
+.btn{
+    background-color: transparent;
+    color: aliceblue;
+    margin: 7px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 23px;   
+    text-align: right;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+
+.img1{
+    width: 55px;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+
+.sec{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+
+.div{
+    color: rgb(147, 231, 203);
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(blackboard-g60e569e5f_1920.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.bt{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: aquamarine;
+    font-size: 29px;
+    box-shadow: none;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+
+
+.text-small{
+    font-size: 50px;
+    height: 50%;
+}
+
+
+.text-big{
+    font-size: 42px;
+    height: 50%;
+}
+
+
+.text{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    font-size: 50px;
+
+}
+
+
+
+.koc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(68, 86, 103);
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.writing{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: rgb(34, 37, 37);
+    font-size: 25px
+    
+    font-family 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.picture{
+    width: 450px;
+    padding: 50px;
+    margin: 30px;
+}
+
+
+.set{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    
+}
+
+
+.inone{
+    width: 140px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+
+.set{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+}
+
+
+.inon{
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.all{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+.html{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.react{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.mongo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.git{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.footer-brief{
+    display: flex;
+    width: 100%;
+    background-color: rgb(172, 176, 180);
+    padding: 40px;
+}
+
+.email{
+    width: 30%;
+}
+
+
+.footer-about{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    height: 100%;
+    position: relative;
+    font-size: 25px;
+}
+
+
+.skill-set{
+    background-color: rgb(33, 91, 141);
+}
+
+
+.footer{
+    max-height: 700px;
+}
+
+.bye{
+    display: flex;
+    width: 100%;
+    background-color: rgb(231, 170, 241);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.mess{
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.copyright{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(172, 176, 180);
+}
